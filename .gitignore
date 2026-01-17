@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+dist/
+
+# Environment
+.env
+.env.local
+
+# API Keys (sensitive)
+keys/
+
+# Logs and artifacts
+packages/server/logs/
+packages/server/artifacts/
+
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temp
+/tmp/
+*.log

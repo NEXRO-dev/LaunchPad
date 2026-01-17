@@ -1,0 +1,19 @@
+{
+  "name": "launchpad-submit",
+  "version": "1.0.0",
+  "private": true,
+  "description": "iOS Build & Submit System for Expo React Native",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "build": "npm run build --workspaces",
+    "dev:server": "npm run dev --workspace=@launchpad/server",
+    "dev:runner": "npm run dev --workspace=@launchpad/runner",
+    "dev:web": "npm run dev --workspace=@launchpad/web",
+    "clean": "npm run clean --workspaces && rm -rf node_modules"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
